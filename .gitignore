@@ -1,0 +1,52 @@
+# python byte code files
+*.pyc
+
+# Macosx files
+.[dD][sS]_[Ss]tore
+
+# Coverage files
+*.coverage
+.coverage.*
+htmlcov/*
+.paradisehome.coverage
+
+# Environment files
+*.env
+venv/
+.venv/
+# pycharm
+.idea
+
+# Static files
+paradisehome/staticfiles/*
+
+# Newrelic config file
+# sql files
+*.sql
+
+# Test files
+*.csv
+*.tar.gz
+*.gz
+*.log
+*.json
+*.dot
+*.pickle
+logs/
+
+# Media
+paradisehome/media/*
+
+# Celery
+celerybeat-schedule.db
+/dump.rdb
+
+# Visual Studio Code
+.vscode
+vandelay-py.js
+
+__pycache__/
+hooks/__pycache__/
+paradisehome/settings/parameters/*.env
+
+*.mo
